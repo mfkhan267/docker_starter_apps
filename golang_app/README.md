@@ -24,14 +24,14 @@ cat Dockerfile-alpine
 
 docker image build -t demo_go .
 
-![image](https://github.com/mfkhan267/base-container-images-demo/assets/77663612/b62ee35d-4f67-4bec-b73e-846639500ee8)
+![image](https://github.com/mfkhan267/docker_starter_apps/assets/77663612/bdcf5c1f-0a90-4601-87ea-f4fb2a96b23a)
 
 # Run #
 
 docker container run --name go_demo -d -p 8000:8080 demo
 
-![image](https://github.com/mfkhan267/base-container-images-demo/assets/77663612/9092f5d8-973d-402d-b910-311fa6ba7f20)
+![image](https://github.com/mfkhan267/docker_starter_apps/assets/77663612/8bd3a7aa-168e-4a21-bcbf-e4b7f5ecb330)
 
-![image](https://github.com/mfkhan267/base-container-images-demo/assets/77663612/c5168617-9372-4351-9969-c3c20e7e6efb)
+![image](https://github.com/mfkhan267/docker_starter_apps/assets/77663612/26b38a6e-96f0-4904-9d53-0c63abe11ae5)
 
 
